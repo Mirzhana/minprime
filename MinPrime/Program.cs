@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace lab2_3
+namespace MinPrime
 {
     class Program
     {
@@ -29,7 +29,6 @@ namespace lab2_3
 
             return cnt == 0 && x != 1; //IsPrime is true in case counter is still 0
         }
-        //функция, которая вызывается в Main
         private static void F1()
         {
             //Create new file where we will input our numbers
